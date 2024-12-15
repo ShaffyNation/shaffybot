@@ -17,7 +17,7 @@ module.exports = {
         const userId = interaction.user.id;
 
 
-        const maxParticipants = 1;
+        const maxParticipants = 1000;
         const roleName = 'Diamond Handed Shaffy 💎'; 
 
 
