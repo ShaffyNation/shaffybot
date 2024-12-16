@@ -1,7 +1,17 @@
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
+const http = require('http');
 const mongoose = require('mongoose');
 const fs = require('fs');
 require('dotenv').config();
+const PORT = process.env.PORT || 3000;
+
+// server to avoid port errors on production
+http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('ShaffyCoin bot is running!\n');
+}).listen(PORT, () => {
+    console.log(`HTTP server running on port ${PORT}`);
+});
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
