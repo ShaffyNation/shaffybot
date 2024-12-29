@@ -81,10 +81,10 @@ module.exports = {
             });
 
             const channel = interaction.channel;
-            await updateMessage(channel, `💎 **ShaffyCoin Airdrop #1** 💎  
-Be part of the **first-ever ShaffyCoin airdrop event**! 🚀  
+            await updateMessage(channel, `💎 **$SHAFFY Special Airdrop — Discord Edition** 💎  
+Be part of the **Special ShaffyCoin airdrop event**! 🚀  
 Claim your exclusive spot in history as an early supporter,
-and get your first **1000 $SHAFFY**. 🐰✨  
+and get your first *10000 $SHAFFY**. 🐰✨  
 
 📋 **How to participate:**  
 1️⃣ Use the command \`/wallet\` to submit your Solana wallet address.  
