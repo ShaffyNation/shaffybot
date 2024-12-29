@@ -10,7 +10,7 @@ module.exports = {
 
         // Find the airdrop channel
         const guild = client.guilds.cache.get(process.env.GUILD_ID);
-        const channel = guild.channels.cache.find(ch => ch.name === '💎・airdrop-1' && ch.type === ChannelType.GuildText);
+        const channel = guild.channels.cache.find(ch => ch.name === '💎・airdrop' && ch.type === ChannelType.GuildText);
         const totalUsers = await User.countDocuments();
 
   const content = `💎 **$SHAFFY Special Airdrop — Discord Edition** 💎  
