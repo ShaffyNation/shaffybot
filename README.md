@@ -34,8 +34,10 @@ ShaffyBot is the official Discord bot for **ShaffyNation**, designed to enhance 
 3. **Set Up Environment Variables**
    Create a `.env` file in the root directory and add:
    ```plaintext
-   DISCORD_TOKEN=your_discord_bot_token
-   MONGO_URI=your_mongo_connection_string
+      BOT_TOKEN=
+      MONGO_URI=
+      GUILD_ID=
+      CLIENT_ID=
    ```
 
 4. **Start the Bot**
