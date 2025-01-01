@@ -22,7 +22,7 @@ ShaffyBot is the official Discord bot for **ShaffyNation**, designed to enhance 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/shaffybot.git
+   git clone https://github.com/ShaffyNation/shaffybot.git
    cd shaffybot
    ```
 
